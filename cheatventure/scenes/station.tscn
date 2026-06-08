@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://cstatn0b1e2f"]
+
+[ext_resource type="Script" path="res://scripts/food_station.gd" id="1_stn01"]
+
+[node name="Station" type="Node2D"]
+script = ExtResource("1_stn01")
+
+[node name="StationRect" type="ColorRect" parent="."]
+offset_left = -55.0
+offset_top = -45.0
+offset_right = 55.0
+offset_bottom = 45.0
+color = Color(0.96, 0.77, 0.26, 1)
+
+[node name="StationLabel" type="Label" parent="."]
+offset_left = -52.0
+offset_top = -43.0
+offset_right = 52.0
+offset_bottom = -18.0
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+text = ""

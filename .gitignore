@@ -1,0 +1,25 @@
+# Claude Code local settings (machine-specific paths)
+.claude/
+
+# Godot import cache (regenerated automatically by editor)
+cheatventure/.godot/
+
+# Android export output
+cheatventure/android/
+
+# Exported binaries
+*.apk
+*.aab
+*.ipa
+*.exe
+*.x86
+*.x86_64
+
+# Compiled translations
+*.translation
+
+# macOS
+.DS_Store
+
+# Linux temp files
+*~

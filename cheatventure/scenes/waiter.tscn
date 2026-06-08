@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cwaitr0a2b3c"]
+
+[ext_resource type="Script" path="res://scripts/waiter.gd" id="1_wtr01"]
+
+[node name="Waiter" type="Node2D"]
+script = ExtResource("1_wtr01")
+
+[node name="WaiterRect" type="ColorRect" parent="."]
+offset_left = -18.0
+offset_top = -25.0
+offset_right = 18.0
+offset_bottom = 25.0
+color = Color(0.9, 0.3, 0.1, 1)
